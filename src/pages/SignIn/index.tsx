@@ -28,7 +28,7 @@ import logoImg from '../../assets/logo.png';
 
 const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
-  const passwordInptRef = useRef<TextInput>(null);
+  const passwordInputRef = useRef<TextInput>(null);
   const navigation = useNavigation();
 
   const handleSignIn = useCallback((data: object) => {
@@ -62,11 +62,11 @@ const SignIn: React.FC = () => {
                 placeholder="E-mail"
                 returnKeyType="next"
                 onSubmitEditing={() => {
-                  passwordInptRef.current?.focus();
+                  passwordInputRef.current?.focus();
                 }}
               />
               <Input
-                ref={passwordInptRef}
+                ref={passwordInputRef}
                 secureTextEntry
                 name="password"
                 icon="lock"
