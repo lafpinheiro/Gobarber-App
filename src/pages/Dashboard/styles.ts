@@ -12,7 +12,6 @@ export const Header = styled.View`
   padding: 24px;
   /* usar no caso de iPhone */
   /* padding-top: ${getStatusBarHeight() + 24}px; */
-  }
   background: #28262e;
 
   flex-direction: row;
