@@ -10,8 +10,7 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   padding: 24px;
-  /* usar no caso de iPhone */
-  /* padding-top: ${getStatusBarHeight() + 24}px; */
+  padding-top: ${getStatusBarHeight() + 24}px;
   background: #28262e;
 
   flex-direction: row;
@@ -22,13 +21,13 @@ export const Header = styled.View`
 export const HeaderTitle = styled.Text`
   color: #f4ede8;
   font-size: 24px;
-  font-family: 'Roboto-Regular';
+  font-family: 'RobotoSlab-Regular';
   line-height: 28px;
 `;
 
 export const UserName = styled.Text`
   color: #ff9000;
-  font-family: 'Roboto-Medium';
+  font-family: 'RobotoSlab-Medium';
 `;
 
 export const ProfileButton = styled.TouchableOpacity``;
@@ -47,7 +46,7 @@ export const ProvidersListTitle = styled.Text`
   font-size: 24px;
   margin-bottom: 24px;
   color: #f4ede8;
-  font-family: 'Roboto-Medium';
+  font-family: 'RobotoSlab-Medium';
 `;
 
 export const ProviderContainer = styled(RectButton)`
@@ -71,7 +70,7 @@ export const ProviderInfo = styled.View`
 `;
 
 export const ProviderName = styled.Text`
-  font-family: 'Roboto-Medium';
+  font-family: 'RobotoSlab-Medium';
   font-size: 18px;
   color: #f4ede8;
 `;
@@ -85,5 +84,5 @@ export const ProviderMeta = styled.View`
 export const ProviderMetaText = styled.Text`
   margin-left: 8px;
   color: #999591;
-  font-family: 'Roboto-Regular';
+  font-family: 'RobotoSlab-Regular';
 `;
